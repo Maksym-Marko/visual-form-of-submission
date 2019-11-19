@@ -56,6 +56,9 @@ class MXVFOS_Admin_Main
 		// ajax requests to main page
 		MXVFOS_Main_Page_Model::mxvfos_wp_ajax();
 
+		// set options
+		MXVFOS_Main_Page_Model::mxvfos_set_form_data();
+
 	}
 
 	/*

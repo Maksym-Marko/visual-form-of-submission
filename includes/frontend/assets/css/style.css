@@ -16932,3 +16932,19 @@ body .promo-widget-top:before {
   display: block;
   padding-left: 12px;
 }
+.mx-fz-p17 {
+  font-size: 17px;
+}
+.simcon .webform-component-radios.webform-component--screen .radio label.mx_curved_label:after {
+      background-image: url('../images/flat1.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+  .simcon .simcon-main .simcon-main-footer {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .accordion--b .panel-body {
+    font-size: 16px;
+  }
+}

@@ -36,3 +36,26 @@
 .mx-block_wrap .thickbox img {
     width: 200px;
 }
+
+/*form*/
+.mx-section-wrap input {
+    width: 100%;
+}
+.mx-section-wrap > input {
+    
+}
+.mx-list-of-questions li {
+    padding-left: 20px;
+}
+.mx-list-of-answers {
+    margin-top: 10px;
+}
+.mx-list-of-answers li {
+    list-style-type: disc;
+}
+.mx-list-of-questions > li {
+    margin-bottom: 25px;
+}
+.mx-list-of-answers li.mx-add-info {
+    list-style-type: none;
+}

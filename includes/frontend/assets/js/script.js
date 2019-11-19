@@ -1,5 +1,9 @@
 jQuery( document ).ready( function( $ ){
 
+
+		// console.log( $( '.mx-sending-progress' ) );
+
+
 	$( '#mx_simulation_configurator_request' ).on( 'submit', function( e ) {
 
 		e.preventDefault();
@@ -181,11 +185,17 @@ jQuery( document ).ready( function( $ ){
 			'form_data': form_data
 		};
 
+		$( '.mx-sending-progress' ).show( 'slow' );
+
+		$( '#mx_submit_button' ).attr( 'disabled', 'disabled' );
+
 		jQuery.post( mxvfos_front_localize.ajaxurl, data, function( response ){
+
+			console.log( response );
 
 			if( response === 'sent' ) {
 
-				// alert( 'Thank you. Data\'s sent!' );
+				$( '.mx-sending-progress' ).hide();
 
 				$( '.mx-main-container-success' ).show();
 

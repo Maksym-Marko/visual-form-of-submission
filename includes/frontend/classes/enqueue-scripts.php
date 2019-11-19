@@ -30,7 +30,7 @@ class MXVFOS_Enqueue_Scripts_Frontend
 
 			wp_enqueue_style( 'mxvfos_font_awesome', MXVFOS_PLUGIN_URL . 'assets/font-awesome-4.6.3/css/font-awesome.min.css' );
 			
-			wp_enqueue_style( 'mxvfos_style', MXVFOS_PLUGIN_URL . 'includes/frontend/assets/css/style.css', array( 'mxvfos_font_awesome' ), MXVFOS_PLUGIN_VERSION, 'all' );
+			// wp_enqueue_style( 'mxvfos_style', MXVFOS_PLUGIN_URL . 'includes/frontend/assets/css/style.css', array( 'mxvfos_font_awesome' ), MXVFOS_PLUGIN_VERSION, 'all' );
 			
 			// wp_enqueue_script( 'mxvfos_script', MXVFOS_PLUGIN_URL . 'includes/frontend/assets/js/script.js', array( 'jquery' ), MXVFOS_PLUGIN_VERSION, false );
 

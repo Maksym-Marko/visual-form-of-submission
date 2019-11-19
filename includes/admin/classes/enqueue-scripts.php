@@ -32,6 +32,8 @@ class MXVFOS_Enqueue_Scripts
 
 			wp_enqueue_style( 'mxvfos_admin_style', MXVFOS_PLUGIN_URL . 'includes/admin/assets/css/style.css', array( 'mxvfos_font_awesome' ), MXVFOS_PLUGIN_VERSION, 'all' );
 
+			// wp_enqueue_script( 'mxvfos_admin_script_jq', MXVFOS_PLUGIN_URL . 'includes/admin/assets/js/jquery.js', array(), MXVFOS_PLUGIN_VERSION, false );
+
 			wp_enqueue_script( 'mxvfos_admin_script', MXVFOS_PLUGIN_URL . 'includes/admin/assets/js/script.js', array( 'jquery' ), MXVFOS_PLUGIN_VERSION, false );
 
 		}
